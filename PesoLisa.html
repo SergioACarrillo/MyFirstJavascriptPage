@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="PesoLisa.css">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="Tit1">
+      <h1>MY FIRST JAVASCRIPT'S PROGRAM</h1>
+    </div>
+
+    <div class="Tit2">
+      <h1>AYUDA A NELSON A SABER EL PESO DE LISA EN LA LUNA</h1>
+    </div>
+
+    <div class="Img">
+      <img id="kiss" src="https://64.media.tumblr.com/26efba87b3f99036a3afdc3dd4a51f94/tumblr_p8uh0tgchW1ucd1bco1_500.gifv">
+    </div>
+
+    <div class="Ans">
+
+      <script type="text/javascript">
+      var T_grav= 9.807;
+      var M_grav= 1.62;
+      var peso;
+      peso = prompt("¿Cual es el peso de Lisa en la tierra?");
+      var peso_final;
+      peso_final= peso * M_grav/T_grav;
+      peso_final= peso_final.toFixed(5);
+      document.write("<h2>"+"Gracias por ayudar a Nelson a conocer esta característica de Lisa, desde hace mucho tiempo él quería hacer realidad uno de los tantos sueños de Lisa: poder tener un lugar donde vivir en la luna pero el único problema era que temía que su cuerpo se afectara de los cambios de gravedad. Para ello Nelson planea construir un traje que se adapte al peso de Lisa en la tierra de"+ peso +" Kilogramos y su peso en la luna de: "+ peso_final +" Kilogramos."+"</h2>")
+      alert("Muy Bien Lisa!!!")
+    </script>
+
+    </div>
+
+  </body>
+</html>

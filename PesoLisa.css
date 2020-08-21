@@ -1,0 +1,56 @@
+body{
+  background-image: url(https://www.xmple.com/wallpaper/linear-yellow-gradient-purple-1920x1080-c2-ffd700-9400d3-a-15-f-14.svg);
+}
+
+h2{
+  font-size: 35px;
+
+}
+
+.Tit1{
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  height: 100px;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 40px;
+  padding-top: 20px
+}
+
+.Tit2{
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin-left: 15%;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.Img{
+  background-color: white;
+  border-radius: 40px;
+  height: 600px;
+  width: 600px;
+  margin-top: 90px;
+  margin-left: 12%;
+  float: left;
+  }
+
+  .Ans{
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    height: 600px;
+    width: 600px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 12%;
+  }
+
+#kiss{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+}
